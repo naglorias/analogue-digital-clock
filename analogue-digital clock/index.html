@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-bar">
+      <label for="toggler" class="toggler">
+        <span class="analogue-icon">
+            <img src="./icons/clock.png" alt="">
+        </span>
+        <input type="checkbox" id="toggler">
+        <span class="toggle-btn"></span>
+        <span class="digital-icon">
+            <img src="./icons/digital-clock.png" alt="">
+        </span>
+    </label>
+   </div>
+<div class="digital-container">
+  <div class="digi-video-side">
+    <video autoplay muted loop id="girl-video">
+      <source src="./videos/train-lady.mov" type="video/mp4">
+    </video>
+   </div>
+ <div class="digi-clock-side">
+    <div class="b-clock"></div>
+    <div class="f-clock">
+   </div>
+</div>
+  </div>
+<div class="analogue-container">
+  <div class="clock-side">
+    <div class='clock'>
+      <ul class='numbers'>
+          <li>
+              <span>
+                Ⅰ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅱ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅲ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅳ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅴ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅵ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅶ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅷ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅸ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅹ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅺ
+              </span>
+            </li>
+            <li>
+              <span>
+                Ⅻ
+              </span>
+            </li>
+        </ul>
+        <div class='hours'>
+          <div class='hrs-hand hand'></div>
+        </div>
+        <div class='minutes'>
+          <div class='mins-hand hand'></div>
+        </div>
+        <div class='seconds'>
+          <div class='secs-hand hand'></div>
+        </div>
+    </div>
+  </div>
+    <div class="video-side">
+      <video autoplay muted loop id="guy-video">
+        <source src="./videos/park-guy.mov" type="video/mp4" quality>
+      </video>
+    </div>
+    
+</div>
+</body>
+</html>
